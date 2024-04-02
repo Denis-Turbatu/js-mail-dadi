@@ -4,7 +4,7 @@
 let numUser = Math.floor(Math.random() * 6) + 1;
 let numPc = Math.floor(Math.random() * 6) + 1;
 
-<<<<<<< HEAD
+
 const userCardElem = document.querySelector(".card-user");
 const pcCardElem = document.querySelector(".card-pc");
 
@@ -24,25 +24,3 @@ if (numUser > numPc) {
 } else {
   winnerElem.innerHTML = "La partita è in pareggio";
 }
-=======
-const userCardElem = document.querySelector('.card-user');
-const pcCardElem = document.querySelector('.card-pc');
-
-const userResultElem = document.getElementById('user-result');
-const pcResultElem = document.getElementById('pc-result');
-const winnerElem = document.getElementById('winner');
-
-userResultElem.innerHTML = numUser;
-pcResultElem.innerHTML = numPc;
-winnerElem.innerHTML = 
-console.log(numUser, "utente");
-console.log(numPc, "pc");
-
-if (numUser > numPc){
-    winnerElem.innerHTML = "Il vincitore sei TU!";
-}else if(numUser < numPc){
-    winnerElem.innerHTML = "Il vincitore è il Computer";
-}else{
-    winnerElem.innerHTML = "La partita è in pareggio";
-}
->>>>>>> 4cb8ff7d04109f17ff1c67973e92947e08b48671
