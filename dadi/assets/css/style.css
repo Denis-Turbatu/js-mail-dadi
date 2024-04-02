@@ -1,0 +1,62 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* MAIN */
+.wrapper {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card-container {
+    width: 60%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.card-user,
+.card-pc,
+.card-winner {
+    text-align: center;
+    padding: 3rem 2rem;
+    width: 40%;
+    background-color: #1f1f1f;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px;
+}
+
+.card-winner {
+    width: 100%;
+    color: #ffffff;
+}
+
+.card-container section {
+    color: #ffffff;
+    font-size: medium;
+}
+
+#user-result,
+#pc-result {
+    font-size: 1.5rem;
+}
